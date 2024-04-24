@@ -22,7 +22,8 @@ namespace Sistema_inventario_backend.Data
         public DbSet<SalidaInventario>? SalidasInventario { get; set; }
         public DbSet<Sucursal>? Sucursales { get; set; }
         public DbSet<Transaccion>? Transacciones { get; set; }
+        public DbSet<Usuario>? Usuario { get; set; }
 
- 
+
     }
 }
